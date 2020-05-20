@@ -1,0 +1,5 @@
+{
+  "productsTest.py": true,
+  "testLogin.py::LoginTest": true,
+  "testLogin.py::LoginTest::test_login": true
+}

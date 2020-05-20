@@ -1,0 +1,5 @@
+[
+  "LoginTest.py::LoginTest::test_login",
+  "testLogin.py::LoginTest::test_login",
+  "ProductsTest.py::ProductsTest::test_login_click_on_products"
+]

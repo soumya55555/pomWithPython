@@ -7,7 +7,7 @@ from Pages.LoginPage import LoginPage
 from Test.BaseTest import BaseTest
 from Pages.ProductsPage import ProductPage
 import time
-class ProductTes(unittest.TestCase,BaseTest):
+class ProductsTest(unittest.TestCase,BaseTest):
     global bt
     bt = BaseTest()
 
@@ -25,6 +25,7 @@ class ProductTes(unittest.TestCase,BaseTest):
         pp.clickonLinkProduct()
         pp.verifyTitle()
         pp.getAllTheProductsDetails()
+
 
 
     @classmethod

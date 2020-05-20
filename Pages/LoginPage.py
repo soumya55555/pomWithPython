@@ -14,8 +14,10 @@ class LoginPage(BaseTest):
         self.driver=driver
 
     def setUserName(self,username):
+        self.driver.find_element_by_id(self.txt_userName_id).clear()
         self.driver.find_element_by_id(self.txt_userName_id).send_keys(username)
     def setPassWord(self,password):
+        self.driver.find_element_by_id(self.txt_passWord_id).clear()
         self.driver.find_element_by_id(self.txt_passWord_id).send_keys(password)
     def clikOnLogin(self):
         self.driver.find_element_by_xpath(self.btn_logIn_xpath).click()
